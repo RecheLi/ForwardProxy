@@ -1,0 +1,2 @@
+# ForwardProxy
+利用NSProxy实现消息分发，将UITableView与CollectionView的数据源与代理消息转发至cell
