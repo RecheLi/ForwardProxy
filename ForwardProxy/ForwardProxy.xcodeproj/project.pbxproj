@@ -25,6 +25,7 @@
 		4373F08223FE8565003A51A2 /* ExampleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4373F08123FE8565003A51A2 /* ExampleModel.m */; };
 		4373F08623FE8579003A51A2 /* ExampleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4373F08423FE8579003A51A2 /* ExampleTableViewCell.m */; };
 		4373F08A23FE8C99003A51A2 /* ExampleDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4373F08923FE8C99003A51A2 /* ExampleDataManager.m */; };
+		CEFE2EF124EB704800CC9AB3 /* NSObject+MutiplyProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFE2EF024EB704800CC9AB3 /* NSObject+MutiplyProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,8 @@
 		4373F08423FE8579003A51A2 /* ExampleTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleTableViewCell.m; sourceTree = "<group>"; };
 		4373F08823FE8C99003A51A2 /* ExampleDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleDataManager.h; sourceTree = "<group>"; };
 		4373F08923FE8C99003A51A2 /* ExampleDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleDataManager.m; sourceTree = "<group>"; };
+		CEFE2EEF24EB704800CC9AB3 /* NSObject+MutiplyProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MutiplyProxy.h"; sourceTree = "<group>"; };
+		CEFE2EF024EB704800CC9AB3 /* NSObject+MutiplyProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MutiplyProxy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +142,8 @@
 			children = (
 				4373F05A23FE6ADB003A51A2 /* NSObject+Next.h */,
 				4373F05B23FE6ADB003A51A2 /* NSObject+Next.m */,
+				CEFE2EEF24EB704800CC9AB3 /* NSObject+MutiplyProxy.h */,
+				CEFE2EF024EB704800CC9AB3 /* NSObject+MutiplyProxy.m */,
 				4373F05D23FE718D003A51A2 /* UIScrollView+Addition.h */,
 				4373F05E23FE718D003A51A2 /* UIScrollView+Addition.m */,
 			);
@@ -276,6 +281,7 @@
 				4373F05C23FE6ADB003A51A2 /* NSObject+Next.m in Sources */,
 				4373F08223FE8565003A51A2 /* ExampleModel.m in Sources */,
 				4373F08623FE8579003A51A2 /* ExampleTableViewCell.m in Sources */,
+				CEFE2EF124EB704800CC9AB3 /* NSObject+MutiplyProxy.m in Sources */,
 				4373F08A23FE8C99003A51A2 /* ExampleDataManager.m in Sources */,
 				4373F07323FE7783003A51A2 /* RCCollectionViewImplement.m in Sources */,
 				4373F03C23FE69C4003A51A2 /* SceneDelegate.m in Sources */,
