@@ -18,7 +18,9 @@
 @implementation RCProxy
 
 - (void)dealloc {
+#ifdef DEBUG
     NSLog(@"%s",__PRETTY_FUNCTION__);
+#endif
 }
 
 
@@ -64,7 +66,7 @@
             return YES;
         }
     }
-    return [super respondsToSelector:aSelector];
+    return NO;
 }
 
 - (NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector {
